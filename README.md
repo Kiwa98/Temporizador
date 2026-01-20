@@ -29,15 +29,8 @@ Substituir soluções puramente elétricas ou inversores simples, oferecendo ló
 
 3. Arquitetura do Sistema
 3.1 Diagrama Conceitual (Lógico)
-┌──────────────┐        Serial USB        ┌──────────────┐
-│              │  ───────────────────▶   │              │
-│   PC (Python)│                          │   Arduino    │
-│              │  ◀───────────────────   │              │
-└──────────────┘                          └──────┬───────┘
-                                                  │
-                       ┌──────────────────────────┼──────────────────────────┐
-                       │                          │                          │
-                 Relé Esteira               Relé Luz Verde              (Expansões)
+<img width="666" height="243" alt="image" src="https://github.com/user-attachments/assets/bd5b55c5-8523-4f95-bcd6-cd4ce6a9dc66" />
+
 
 4. Componentes Utilizados
 4.1 Software (PC)
@@ -178,4 +171,5 @@ O controle de tempo é baseado em timestamp real, garantindo precisão.
 O sistema não depende de sensores, reduzindo pontos de falha.
 
 A lógica de controle segue padrão de máquina de estados simples (FSM).
+
 
