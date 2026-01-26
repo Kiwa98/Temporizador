@@ -2,7 +2,7 @@
 
  
  DOCUMENTAÇÃO TÉCNICA
-Sistema de Temporização de Esteira com Sinalização Manual
+Sistema de Temporização de Esteira
 1. Visão Geral
 
 Este sistema foi desenvolvido para controlar uma esteira transportadora por tempo, utilizando um ciclo automático de ligado/parado, com sinalização manual independente através de uma lâmpada verde acionada pelo operador.
@@ -171,5 +171,6 @@ O controle de tempo é baseado em timestamp real, garantindo precisão.
 O sistema não depende de sensores, reduzindo pontos de falha.
 
 A lógica de controle segue padrão de máquina de estados simples (FSM).
+
 
 
